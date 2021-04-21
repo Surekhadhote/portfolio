@@ -929,10 +929,13 @@ ul{
 }
 
 #project1:hover{
-  background-image: url("Images/tictactoe.PNG");
+/*  background-image: url("Images/tictactoe.PNG");
   background-position: center;
+  background-size: cover;*/
+  background-image: url("Images/background.jpg");
   background-size: cover;
-  
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #project2:hover{
