@@ -334,9 +334,13 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
 }
+.services .boxes .box.text{
+  display: none;
+}
 .services .boxes .box:hover{
   background: rgb(141, 219, 206);
   color: #fff;
+  
 }
 .services .boxes .box .icon{
   height: 50px;
@@ -918,4 +922,39 @@ ul{
   color:white;
   outline:0;
   transition: background-color 2s ease-out;
+}
+
+#project1:hover{
+  background-image: url("Images/tictactoe.PNG");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#project2:hover{
+  background-image: url("Images/ramas.PNG");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#project3:hover{
+  background-image: url("Images/dsc-site.PNG");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#project4:hover{
+  background-image: url("Images/portfolio.PNG");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#project5:hover{
+  background-image: url("Images/loana.PNG");
+  background-position: center;
+  background-size: cover;
+  
 }
