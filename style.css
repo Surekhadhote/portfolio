@@ -308,7 +308,6 @@ section .button button:hover{
 .skills-details .box{
   width: calc(100% / 2 - 20px);
   margin: 20px 0;
-   background-image: url("Images/tictactoe.PNG");
   background-position: center;
   background-size: cover;
   
@@ -927,15 +926,20 @@ ul{
   outline:0;
   transition: background-color 2s ease-out;
 }
-
+#project1{
+}
+#project2{ 
+}
+#project3{ 
+}
+#project4{ }
+#project5{
+}
 #project1:hover{
-/*  background-image: url("Images/tictactoe.PNG");
+  background-image: url("Images/tictactoe.PNG");
   background-position: center;
-  background-size: cover;*/
-  background-image: url("Images/background.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  
 }
 
 #project2:hover{
@@ -960,7 +964,7 @@ ul{
 }
 
 #project5:hover{
-  background-image: url("Images/loana.png");
+  background-image: url("Images/loana.PNG");
   background-position: center;
   background-size: cover;
   
