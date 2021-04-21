@@ -165,7 +165,7 @@ nav.sticky .menu-btn{
   font-size: 25px;
   font-weight: 400;
   background: rgb(141, 219, 206);
-  color: #fff;
+  color:#bbb;/* #fff;*/
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
